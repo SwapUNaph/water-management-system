@@ -194,7 +194,7 @@ float ultrasonic() {
   return d;
 }
 
-void setRandom() {
+void setRandom() { // Randomized output to simulate realtime water use.
   int i;
   byte state;
   byte d1, d2, d3;
